@@ -1,4 +1,14 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#06202a] text-gray-300;
+  }
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -9,13 +19,13 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +33,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
