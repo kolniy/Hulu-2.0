@@ -31,7 +31,7 @@ export const getStaticProps = async (context) => {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`https://hulu-2-0-ten-pied.vercel.app/api/articles`);
+  const res = await fetch(`${server}/api/articles`);
   const articles = await res.json();
 
   const ids = articles.map((article) => article.id);
