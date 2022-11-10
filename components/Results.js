@@ -2,6 +2,9 @@ import React from "react";
 import Thumbnail from "./Thumbnail";
 import FlipMove from "react-flip-move";
 
+// https://www.npmjs.com/package/react-flip-move
+// to check out
+
 const Results = ({ requests }) => {
   return (
     <FlipMove

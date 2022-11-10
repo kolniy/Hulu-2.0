@@ -8,13 +8,7 @@ import requests from "../utils/request";
 
 export default function Home({ results }) {
   return (
-    <div>
-      <Head>
-        <title>Hulu 2.0</title>
-        <meta name="description" content="Hulu 2.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
+    <div className="page-wrapper">
       <Nav />
       <Results requests={results} />
     </div>

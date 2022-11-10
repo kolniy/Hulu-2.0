@@ -4,8 +4,14 @@
 
 @layer base {
   body {
-    @apply bg-[#06202a] text-gray-300;
+    box-sizing: border-box;
   }
+}
+
+.page-wrapper {
+  @apply bg-[#06202a] text-gray-300;
+  min-height: 100vh;
+  height: fit-content;
 }
 
 /* html,
